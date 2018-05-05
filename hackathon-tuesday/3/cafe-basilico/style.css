@@ -1,0 +1,107 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+section
+{
+    width:345px;
+    height:578px;
+    border:2px solid #cccccd;  
+    padding:0 15px;  
+    margin:18px; 
+}
+
+div
+{
+    width: 377px;
+    height: 218px;
+    background-position:center;
+    background-size: cover; 
+    position: relative;
+    right:16px; 
+    top:-2px;
+}
+
+p
+{
+    color: gray;  
+}    
+
+strong
+{
+    color: #232020;
+    margin:10px 0;      
+}  
+
+h4
+{
+    color: #1c68f3;    
+}   
+
+nav
+{
+    color:#facb46;
+    margin: 10px 0;  
+}  
+    
+span:last-child 
+{
+    color:gray; 
+}  
+
+h3
+{
+    color: #232020;    
+}      
+
+h2
+{
+    color:  #232020;
+}    
+
+button
+{
+    border: none;
+    background-color:white;
+    font-weight: bold;
+    color:#a5a5a5;  
+    margin: 0px 0px;
+    padding: 0 43px;
+}    
+
+.top-button + .midel-button 
+{
+    background-color:#d2d2d2;
+    color:#232020; 
+    padding:5px 10px; 
+}
+
+article 
+{
+    position: relative;
+} 
+
+article span
+{
+    position: absolute;
+    top:0px;
+    color: gray;
+    font-size:20px;
+}       
+
+.map
+{
+    position: relative;
+
+}    
+
+h5
+{
+    position: absolute;
+    top:-68px;
+    right: 5px;
+    color: gray;
+    font-size: 15px;
+    padding:0 16px;
+}    
+    

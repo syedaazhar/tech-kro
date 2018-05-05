@@ -1,0 +1,164 @@
+figure
+    {
+        border:2px solid black;
+        border-radius: 5px;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        margin:18px;
+
+    }
+
+.img-div
+    {
+        height: 200px;
+        width: 280px;
+        background-position:center;
+        background-size: cover;
+
+    }
+
+.description-div
+    {
+        display: none;
+    }
+
+figcaption
+    {
+        padding:16px;
+        font-weight: bold;
+        font-size:20px; 
+    }  
+    
+figure:hover .description-div
+    {
+        display: inline-block;
+        color: white;
+        height:78%;
+        background-color:rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top:0;
+        left:0;
+        cursor: pointer;
+    }    
+    
+.description-div p
+    {
+        padding: 10px;
+        font-size:15px
+    }
+
+button
+    {
+        border-radius:100px;
+        padding:10px; 
+        font-size: 20px;
+        background-color:#212121;
+        color: white;
+        margin:5px;
+        
+    } 
+    
+button:hover   
+    {
+        background-color:#e76530;
+        color:#212121;
+        border-color:#212121;
+        cursor: pointer;
+    }    
+
+button:active
+    {
+        background-color: #ffeb3b;
+        
+    }  
+    
+button:focus 
+    { 
+        outline: none;
+    }    
+
+
+figure:hover figcaption
+    {
+        color:#e76530;
+        background-color:#212121; 
+        
+    }   
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+body
+{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+ div
+{
+    width:1349px;
+    height:848px;
+    background-position: center;
+    background-size: cover;
+    display: inline-flex;
+    
+    
+}
+h2
+{
+    text-align: center;
+    background-image:linear-gradient(to right, #f79a04,#ffd011,#fbe179);
+    padding: 30px 50px;
+    margin: 0;
+    color: black;
+    font-size: 30px;
+    width: 1249px;
+
+} 
+a{
+    text-decoration: none;
+}
+
+section
+{
+    margin: 10px;
+    text-align: center;
+}
+button
+{
+    width:114px;
+    height: 44px;
+    background: #f79b05;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+    font-size: 20px;
+    border:none;
+}
+button:hover 
+{
+    width: 100px;
+    height: 100px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+    
+}    
+
+h3
+{
+    
+}
+

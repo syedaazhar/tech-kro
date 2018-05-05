@@ -1,0 +1,74 @@
+section
+{
+    width: 225px;
+    height: 195px;
+    border: 2px solid #dcdbdb;
+    text-align: center;
+    margin: 20px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 4px 3px rgba(0,0,0,0.09);
+    -moz-box-shadow: 0px 1px 4px 3px rgba(0,0,0,0.09);
+    box-shadow: 0px 1px 4px 3px rgba(0,0,0,0.09);
+
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+
+h3
+{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+p
+{
+    color: #393939;
+}
+
+button
+{
+    background-color: #616161;
+    color: white;
+    border:none;
+    padding:10px 13px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: #cbcbcb;
+    color: black;
+}
+
+article
+{
+    width: 225px;
+    height: 195px;
+    border: 2px solid #dcdbdb;
+    text-align: center;
+    margin: 20px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 4px 3px rgba(0,0,0,0.09);
+    -moz-box-shadow: 0px 1px 4px 3px rgba(0,0,0,0.09);
+    box-shadow: 0px 1px 4px 3px rgba(0,0,0,0.09);
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+
+nav
+{
+    width: 225px;
+    height: 195px;
+    border: 2px solid #dcdbdb;
+    text-align: center;
+    margin: 20px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 4px 3px rgba(0,0,0,0.09);
+    -moz-box-shadow: 0px 1px 4px 3px rgba(0,0,0,0.09);
+    box-shadow: 0px 1px 4px 3px rgba(0,0,0,0.09);
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}

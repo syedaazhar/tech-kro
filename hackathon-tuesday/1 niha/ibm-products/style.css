@@ -1,0 +1,77 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+    text-align: center;
+}
+
+section, nav
+{
+    display:inline-block;
+    width: 320px;
+    height: 400px;
+    background-color: #e2eaf5;
+    color: #3f4243;
+    margin: 20px 78px;
+}
+
+article
+{
+    display:inline-block;
+    width: 320px;
+    height: 400px;
+    background-color: #e2eaf5;
+    color: #3f4243;
+    margin: 20px -52px;
+}
+
+div
+{
+    width:320px;
+    height:200px;
+    background-position: center;
+    background-size: cover;
+}
+
+section > h3, p, button, article p, h3  
+{
+    margin:20px 14px;
+}
+
+ h3
+{
+    font-size: 20px;
+}
+
+p
+{
+    font-weight: 400;
+    font-size:15px;
+    
+}
+
+button
+{
+    padding: 10px 65px;
+    background-color: #3a8570;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+article button, nav button
+{
+    margin: 5px 14px;
+    padding: 10px 91px;
+}
+
+button:hover
+{
+    background-color: #2d6c5c;
+}
+
+
+

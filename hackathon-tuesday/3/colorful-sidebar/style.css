@@ -1,0 +1,109 @@
+body    
+{
+    margin: 0;   
+}
+
+ul
+{
+    margin: 0;      
+}    
+
+section
+{
+    background-color:black;
+    color: white;
+    width:72px;
+    height:918px;
+    margin:0 5px;
+    position:sticky;
+    top: 0;   
+}
+
+li
+{
+    padding:31px 0;
+    font-size:25px; 
+    list-style-type: none;
+    margin: 0px -16px;     
+}  
+    
+p
+{  
+    margin: -873px 106px;
+    font-size:25px; 
+}   
+    
+span
+{
+    font-size:10px; 
+    text-align: center;
+    color: #f1f1f1;
+    display: none;    
+}    
+
+section:hover li
+{
+    padding:25px 0; 
+        
+}
+
+
+section:hover .sidebar:first-child
+{
+    color: #c57816;
+}
+
+section:hover .sidebar:nth-child(2)
+{
+    color: #a52037;
+}
+
+section:hover .sidebar:nth-child(3)
+{
+    color: #77231d;
+}    
+
+section:hover .sidebar:nth-child(4)
+{
+    color:#572960 ;
+}    
+
+section:hover .sidebar:nth-child(5)
+{
+    color:#255d82 ;
+}    
+
+section:hover .sidebar:nth-child(6)
+{
+    color: #326432;
+}    
+
+section:hover .sidebar:nth-child(7)
+{
+    color: #455e29;
+}    
+
+section:hover .sidebar:nth-child(8)
+{
+    color: #78723a;
+}    
+
+section:hover .sidebar:nth-child(9)
+{
+    color: #354148;
+}  
+    
+section:hover .sidebar:last-child    
+{
+    color: #71491a;
+}
+
+section:hover span
+{
+    color: #c8c8c8;
+    display:block;
+    position: relative;
+    left: -19px;   
+}    
+
+    

@@ -1,0 +1,201 @@
+section
+    {
+        border: 2px solid #f2f2e4;
+        width: 265px;
+        height:474px;
+        padding: 16px;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        
+        
+    }
+
+header
+    {
+        background-color: #eb8434;
+        width: 301px;
+        height: 60px;
+        position: relative;
+        bottom: 18px;
+        left: -18px;
+    }    
+h1
+    {
+        
+        color:white; 
+        text-align: center;
+        margin: 0;
+        padding: 12px 0;
+    }    
+
+p
+    {
+        margin:5px 0;
+        font-size:13px; 
+        color:#585858;      
+        font-weight: bold; 
+    }    
+
+nav
+    {
+        position:relative;
+        top:9px 
+    }    
+
+article, footer
+    {
+        position: relative;
+        top:7px ;
+    
+    }    
+
+span
+   {
+      padding:8px ;
+       font-weight: bold;
+       color:#e3b756;
+   }
+
+strong
+    {
+        color:#166ad2; 
+    }   
+
+p + p  
+    {
+        color: #36c090;
+        
+    }
+
+em
+    {
+        font-weight: 700;
+        color: #a9a7a7;
+        padding:5px;
+
+    }    
+
+h5
+    {
+        margin: 0;
+        font-weight: bold;
+        color:#e3b756;
+    }
+
+hr + p
+    {
+        color: #a9a7a7;
+    }    
+ 
+button
+    {
+        background-color: #ddecf6;
+        color: #3578c1;
+        border: none;
+        padding:5px;
+    }  
+    
+button:focus
+    {
+        outline: none;
+    } 
+    
+.submit
+    {
+        background-color:#0083ff;
+        color: white; 
+        border:1px solid #3073b3; 
+        margin:9px 0;
+    }
+
+hr
+    {
+     
+        border: 0;
+        border-top: 2px solid #f2f2e4 ;
+        
+
+    }
+
+.icon
+    {
+        display: none;
+        
+
+        
+
+    }
+
+nav .icon:nth-child(1)
+    {
+       position: relative;
+       right:-251px;
+    }
+
+article .icon:nth-child(1)  
+    {
+        position: relative;
+        right:-161px;
+    }
+
+footer .icon:nth-child(1)    
+    {
+       position: relative;
+       right:-120px;
+    }
+
+section:hover .icon
+    {
+       display: initial;
+       color: #585858;
+    }    
+
+  
+
+ .tooltip .tooltiptext {
+         visibility: hidden;
+        width: 120px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+         padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 85%;
+        left: 100%;
+         margin-left: -60px; 
+        opacity: 0;
+        transition: opacity 0.3s;     
+    }  
+
+.tooltip
+    {
+        white-space: nowrap;
+    }    
+
+.tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }  
+
+    
+    
+    .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+        display: inline-block;
+    }    
+
+    
+
+
+     
+
+    

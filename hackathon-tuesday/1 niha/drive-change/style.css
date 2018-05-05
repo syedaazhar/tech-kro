@@ -1,0 +1,35 @@
+article
+{
+    text-align: center;
+    margin: 278px 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+    color: #151515;
+    font-size: 47px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+
+p
+{
+    color: #403f3f;
+    font-size:25px; 
+    margin: 15px 330px;
+}
+
+button
+{
+    margin: 45px;
+    padding:13px 27px;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    background-image:linear-gradient(to right,#4ab7e6,#3e51c7);
+    border: none;
+    border-radius:2px; 
+    cursor: pointer;
+}

@@ -1,0 +1,111 @@
+body 
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+section
+{
+    width: 225px;
+    height: 345px;
+    background-color: #ffffff;
+    padding:16px;
+    display: inline-block;
+    margin: -28px 44px;
+    border:1px solid transparent;    
+}
+
+div
+{
+    height: 61%;
+    width: 98%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 2px;
+
+} 
+
+
+h1
+{
+    margin: 68px 60px;
+    text-align: center;
+}    
+
+p
+{
+    font-size:14px; 
+    margin-bottom: 0;
+}    
+
+h3 + p
+{
+    color: #a0a0a0;
+    margin: 0;
+}    
+
+h3
+{
+    font-size: 14px;
+    margin: 0;
+}    
+
+span
+{
+    font-size: 14px;
+    color: #a0a0a0;
+        
+
+}    
+
+hr
+{
+     
+    border: 0;
+    border-top: 1px solid #dadada;
+}
+
+article  
+{
+    width: 225px;
+    height: 345px;
+    background-color: #ffffff;
+    padding:16px;
+    display: inline-block;
+    margin: -28px -15px;
+    border:1px solid transparent;  
+}    
+
+nav
+{
+    width: 225px;
+    height: 345px;
+    background-color: #ffffff;
+    padding:16px;
+    display: inline-block;
+    margin: -28px 42px;
+    border:1px solid transparent;    
+}        
+
+main
+{
+    width: 225px;
+    height: 345px;
+    background-color: #ffffff;
+    padding:16px;
+    display: inline-block;
+    margin: -28px -10px;
+    border:1px solid transparent;  
+}    
+    
+section:hover, article:hover, nav:hover, main:hover  
+{
+    border-color:  gray;
+}
+
+
+
+
+
+
+        

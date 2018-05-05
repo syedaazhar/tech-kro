@@ -1,0 +1,56 @@
+body 
+{
+    margin: 0;
+}
+.white-nav-bar
+{
+    display: flex;
+}
+
+.white-nav-bar > ul
+{
+    margin: -2px;
+    padding: 0px;
+    font-size: 17px;
+    display: inline-flex;
+    list-style-type: none;
+    margin-left:584px;
+}
+
+.top-bar li 
+{
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}    
+
+.blue-nav-bar
+{
+    display: flex;
+    background-color: #164468;
+}
+
+.blue-nav-bar > ul
+{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    display: inline-flex;
+    list-style-type: none;
+    margin-left:92px;
+}
+
+.mid-bar > li
+{
+    display:flex;
+    color: white;
+    text-align: center;
+    padding-bottom:12px ;
+    font-size: 18px;
+    width:auto;
+    height:1px;
+    margin:0 18px ;
+
+}
